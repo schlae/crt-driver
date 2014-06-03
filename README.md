@@ -11,6 +11,8 @@ There are several boards in this design:
   using it to prevent nasty electric shocks. Voltages this high with even
   just a few milliamps can stop your heart!
 
+  Order from OSH Park: https://oshpark.com/shared_projects/PMsJvDGz
+
 2. Electrostatic CRT Deflection and Video Amplifier
   The heart of the circuit is this board. It has two fully differential
   high voltage amplifiers/level shifters to drive the deflection plates,
@@ -21,11 +23,15 @@ There are several boards in this design:
   you will either need to connect the video in pin to 3.3V or adjust the
   brightness pot to see anything on the screen.
 
+  Order from OSH Park: https://oshpark.com/shared_projects/stZ49KK7
+
 3. Video Amplifier Bias Supply
   The deflection board needs a stiff 60V bias supply for the video
   amplifier. This board provides it given a 12V input. With some
   modifications you could use this board as a Nixie tube power supply.
   For that you would need to change the value of R1 and C5 (to have the
   proper voltage rating).
+
+  Order from OSH Park: https://oshpark.com/shared_projects/F2lrTWvo
 
 
