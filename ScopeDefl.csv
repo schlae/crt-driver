@@ -21,7 +21,7 @@ Quantity,Designator,Value,Comment,Description,ManufPart,Mouser
 "1","R4","500","YWID","Variable Resistor","3386F-1-501LF","652-3386F-1-501LF"
 "1","R5","500K","FOCUS","Variable Resistor","3386F-1-504LF","652-3386F-1-504LF"
 "1","R6","500K","ASTIG","Variable Resistor","3386F-1-504LF","652-3386F-1-504LF"
-"1","R7","100K","BRIGHT","Variable Resistor","3386F-1-104LF","652-3386F-1-504LF"
+"1","R7","100K","BRIGHT","Variable Resistor","3386F-1-104LF","652-3386F-1-104LF"
 "1","R8","1K","CONT","Variable Resistor","3386F-1-102LF","652-3386F-1-102LF"
 "11","R9, R10, R14, R15, R17, R18, R22, R23, R35, R36, R39","10K","Res1","Resistor","CRCW080510K0FKEB","71-CRCW080510K0FKEB"
 "4","R11, R12, R19, R20","5.1K","Res1","Resistor","CRCW08055K10FKEA","71-CRCW0805-5.1K-E3"
