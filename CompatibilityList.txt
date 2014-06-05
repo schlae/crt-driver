@@ -1,0 +1,88 @@
+List of CRTs compatible with the CRT driver board set
+
+Please see the associated BaseDiagrams.pdf file for tube pinouts. 
+
+Notes: 
+
+In the compatibility column, HC stands for Heater/Cathode, meaning that
+the cathode is tied to one leg of the heater. Be sure this leg is connected
+to pin 5 of J2 rather than pin 4, or you will short out the filament
+transformer!
+
+PDA stands for Post Deflection Acceleration. Power supply needs optional
+voltage multiplier installed to get 3KV+.
+
+For CRTs 2" and under, keep the A2 voltage below 1KV to avoid damaging the
+tube. Be especially careful with the 1DP* CRTs which will require modification
+of the power supply.
+
+CRT TYPE   BASE   FIL VOLT   COMPATIBLE          MAX A2 VOLTAGE
+---------------------------------------------------------------
+0.75"-1" DIAMETER
+913        913         6.3   No                            500V
+1CP*       Loctal      6.3   Yes (HC, Untested)           1000V
+1DP*       B9A         6.3   Yes (HC, Untested)            600V (Requires power supply mod)
+1EP*       11V         6.3   Yes                          1500V
+---------------------------------------------
+2" DIAMETER
+902A       8CD         6.3   No
+2AP*       11B         6.3   Yes                          1100V
+2AP*A      11L         6.3   Yes                          1100V
+2BP*       12E         6.3   Yes                          2750V
+---------------------------------------------
+3" DIAMETER
+906/3AP*   7AN         2.5   No
+3AP*A      7AN         2.5   No
+908A       7AN         2.5   No
+3BP*       14A         6.3   Yes
+3BP*A      14G         6.3   Yes
+3CP*       11C         6.3   Yes (HC)
+3DP1       14C         6.3   Yes                          Center face deflection electrode
+3DP*-3DP*A 14H         6.3   Yes                          Center face deflection electrode
+3EP*       11N         6.3   Yes (HC)
+3FP*       14B         6.3   Yes (PDA)
+3FP*A      14J         6.3   Yes (PDA)
+3GP*       11A         6.3   Yes (HC)
+3GP*A      11N         6.3   Yes (HC)
+3JP*       14J         6.3   Yes (PDA)
+3KP*       11M         6.3   Yes (Untested)
+3MP*       12F         6.3   Yes
+3QP*       9D          6.3   Yes (HC, Untested)
+3RP*/3RP*A 12E         6.3   Yes
+3SP*       12E         6.3   Yes (Untested)
+3WP*       12T         6.3   Yes
+3XP*       Loctal      6.3   Yes (HC, Poor performance)   Rectangular
+------------------------------------------
+5" DIAMETER
+905        5BP         2.5   Yes (HC)
+905A       5BR         2.5   Yes (HC)
+907        5BP         2.5   Yes (HC)
+912        912         2.5   Yes (Untested)
+5ABP*      14J         6.3   Yes (PDA)
+5ADP*      14J         6.3   Yes (PDA)
+5AQP*      14G         6.3   Yes (Very poorly)
+5AQP*A     14G         6.3   Yes (Very poorly)
+5AP*       11A         6.3   Yes (HC, Untested)
+5BP*       11A         6.3   Yes (HC)
+5BP*A      11N         6.3   Yes (HC, Untested)
+5CP*       14B         6.3   Yes (PDA)
+5CP*A      14J         6.3   Yes (PDA, Untested)
+5DEP*      12E         6.3   Yes
+5GP*       11A         6.3   Yes (HC, Untested)
+5HP*       11A         6.3   Yes (HC, Untested)
+5HP*A      11N         6.3   Yes (HC, Untested)
+5JP*       11E         6.3   Yes (HC, PDA, Untested)
+5JP*A      11S         6.3   Yes (HC, PDA, Untested)
+5LP*       11F         6.3   Yes (HC, Untested)
+5LP*A      11T         6.3   Yes (HC, PDA, Untested)
+5MP*       7AN         2.5   No
+5NP*       11A         6.3   Yes (HC, Untested)
+5RP*       14F         6.3   Unlikely (PDA, Untested but PDA is probably too high voltage)
+5RP*A      14P         6.3   Unlikely (PDA, Untested but PDA is probably too high voltage)
+5SP*       14K         6.3   Yes (PDA)                    Dual gun!
+5UP*       12E         6.3   Yes                          Fuzzy
+5VP*       11N         6.3   Yes (HC, Untested)
+5XP*       14P         6.3   Unlikely (PDA, Untested but PDA is probably too high voltage)
+5YP*       14Q         6.3   Yes (Untested)
+
+The circuit has not been tested with tubes larger than 5".
