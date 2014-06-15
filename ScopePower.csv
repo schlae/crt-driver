@@ -25,4 +25,4 @@ Quantity,Designator,Value,Comment,Description,ManufPart,Mouser
 "1","R10","10K","","Resistor","CRCW080510K0FKEB","71-CRCW0805-10K-E3"
 "1","T1","","CCFL_C","CCFL Transformer","CTX210605-R","704-CTX210605-R"
 "1","U1","","ZTL431A","Adjustable Shunt Reg","ZTL431A","522-ZTL431AFTA"
-"1","U2","","TS271","Generic Single Op Amp","TS271CN","511-TS271CN"
+"1","U2","","TS271","Generic Single Op Amp","TS271IDT","511-TS271IDT"
